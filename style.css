@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* NavBAr Section */
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+
+}
+.navbar a:hover{
+background-color: burlywood;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    align-items: center;
+    letter-spacing: 5px;
+
+
+}
+
+.left_navbar {
+    margin-left: 30px;
+    word-spacing: 5px;
+    font-size: small;
+}
+
+.left_navbar span {
+    font-weight: 900;
+}
+
+.right_navbar {
+    margin-right: 30px;
+    word-spacing: 20px;
+    font-size: small;
+}
+
+/* Main Section */
+
+.display_container {
+    height: 80vh;
+    width: 80vw;
+    margin-left: 10vw;
+
+
+}
+
+.box_1 {
+    background-image: url(/assessts/architect.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+.box_1 .para_1 {
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.box_1 .para_2 {
+    color: white;
+}
+
+.para_3 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.box_2 {
+
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.box_2 p{
+    display: inline-block;
+    font-size: smaller;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+
+.image_1 {
+    background-image: url(/assessts/house5.jpg);
+    height: 200px;
+    width: 265px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.image_2 {
+    background-image: url(/assessts/house2.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.image_3 {
+    background-image: url(/assessts/house3.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.image_4 {
+    background-image: url(/assessts/house4.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.box_3 {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.box_3 p{
+    display: inline-block;
+    font-size: smaller;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+
+.image_5 {
+    background-image: url(/assessts/house2.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_6 {
+    background-image: url(/assessts/house5.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_7 {
+    background-image: url(/assessts/house2.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_8 {
+    background-image: url(/assessts/house3.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box_4 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+.box_4 hr {
+    margin-top: 20px;
+}
+
+.box_4 .para {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.image_9 {
+    background-image: url(/assessts/team2.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* for Box 5 */
+
+.name_1 {
+    margin-top: 20px;
+}
+
+.post_1 {
+    margin-top: 20px;
+    color: rgba(97, 89, 89, 0.801);
+    font-weight: 500;
+
+}
+
+.about_1 {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.btn1 {
+    padding: 3px 110px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+.image_10 {
+    background-image: url(/assessts/team1.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* for Box 6  */
+
+.name_2 {
+    margin-top: 20px;
+}
+
+.post_2 {
+    margin-top: 20px;
+    color: rgba(97, 89, 89, 0.801);
+    font-weight: 500;
+
+}
+
+.about_2 {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.btn2 {
+    padding: 3px 110px;
+    border: none;
+    margin-top: 20px;
+}
+
+.image_11 {
+    background-image: url(/assessts/team3.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* for Box 7  */
+
+.name_3 {
+    margin-top: 20px;
+}
+
+.post_3 {
+    margin-top: 20px;
+    color: rgba(97, 89, 89, 0.801);
+    font-weight: 500;
+
+}
+
+.about_3 {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.btn3 {
+    padding: 3px 110px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* for Box 8  */
+
+.image_12 {
+    background-image: url(/assessts/team4.jpg);
+    height: 200px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.name_4 {
+    margin-top: 20px;
+}
+
+.post_4 {
+    margin-top: 20px;
+    color: rgba(97, 89, 89, 0.801);
+    font-weight: 500;
+
+}
+
+.about_4 {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.btn4 {
+    padding: 3px 110px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+/* For Box 9 */
+.box_9{
+    margin-top: 100px;
+}
+
+.box_9 h3 {
+    margin-bottom: 20px;
+}
+.box_9 hr{
+    margin-bottom: 25px;
+    color: rgba(245, 243, 243, 0.801);
+    
+}
+
+.box_9 p {
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.box_9 h5 {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.box_10{
+    margin-top: 30px;
+}
+
+.last_image {
+    height: 500px;
+    width: 100%;
+    background-image: url(/assessts/map.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    background-color: burlywood;
+    
+}
